@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Environment / secrets (never commit real .env files)
+.env
+.env.*
+!.env.example
+
+# Runtime uploads — keep the folder, ignore user files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches / coverage
+.vite/
+.cache/
+coverage/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+*.local
+
+# Local databases / temp files
+*.sqlite
+*.sqlite3
+*.tmp
+
+# AI/agent instruction files (local only, not published)
+AGENTS.md
+CLAUDE.md
+.cursorrules
+.cursor/
+.opencode/
